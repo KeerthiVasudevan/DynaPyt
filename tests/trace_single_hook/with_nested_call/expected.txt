@@ -1,0 +1,73 @@
+begin execution
+runtime event
+runtime event
+control flow event
+pre call:  foo
+runtime event
+control flow event
+runtime event
+runtime event
+runtime event
+runtime event
+runtime event
+control flow event
+pre call:  realpath
+post call:  realpath
+runtime event
+control flow event
+pre call:  dirname
+post call:  dirname
+runtime event
+runtime event
+runtime event
+runtime event
+runtime event
+runtime event
+control flow event
+pre call:  join
+post call:  join
+runtime event
+runtime event
+runtime event
+control flow event
+post call:  foo
+runtime event
+runtime event
+control flow event
+pre call:  open
+post call:  open
+runtime event
+control flow event
+with statement entered
+runtime event
+runtime event
+runtime event
+control flow event
+pre call:  readline
+post call:  readline
+runtime event
+runtime event
+runtime event
+runtime event
+runtime event
+control flow event
+pre call:  print
+Line read from expected.txt: begin execution
+
+post call:  print
+runtime event
+runtime event
+control flow event
+pre call:  print
+content has been read from the file
+post call:  print
+runtime event
+control flow event
+with statement exited
+runtime event
+runtime event
+control flow event
+pre call:  print
+file has been closed
+post call:  print
+end execution

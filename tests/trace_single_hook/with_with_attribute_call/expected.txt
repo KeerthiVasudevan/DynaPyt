@@ -1,0 +1,30 @@
+begin execution
+runtime_event
+runtime_event
+control flow event
+pre call:  Foo
+post call:  Foo
+runtime_event
+runtime_event
+runtime_event
+runtime_event
+control flow event
+pre call:  bar
+post call:  bar
+runtime_event
+control flow event
+with statement entered
+runtime_event
+control flow event
+runtime_event
+runtime_event
+control flow event
+pre call:  print
+hello world
+post call:  print
+runtime_event
+control flow event
+runtime_event
+control flow event
+with statement exited
+end execution
